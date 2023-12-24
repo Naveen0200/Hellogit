@@ -26,10 +26,21 @@ body {
 .card {
     width: 250px;
     margin: 20px;
-    padding: 15px;letter-spacing: normal;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h3 {
     margin-top: 10px;
     color: #333;
 }
- body {
+/* body {
     background-image: url('backgroud.jpg');
-  } 
+  } */
