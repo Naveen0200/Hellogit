@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="login-container">
-        <img src="mindtree-logo.png" alt="LTI Mindtree Logo" class="logo">
+        <img src="mindtree-logo.png.jpg" alt="LTI Mindtree Logo" class="logo">
         <h2>Login to your account</h2>
         <form>
             <label for="username">Username</label>
@@ -21,33 +21,5 @@
             <a href="mobiles/index.html"  target="_self" >Login</a>
         </form>
     </div>
-
-
-    
-<script>
-    const loginCombos = {
-        nat: 'natpass',
-        dog: 'dogpass',
-        cat: 'catpass',
-        clown: 'clownpass'
-    };
-    
-    function validate() {
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
-        const userExists = loginCombos.hasOwnProperty(username)
-        const rightPass = loginCombos[username] === password
-    
-        if (userExists && rightPass) {
-            alert('Login Successful');
-            window.location.replace('/feed.html');
-            return false;
-            } else {
-            alert('Sorry, your username or password was incorrect. Please double-check your login information and try again.')
-            return false;
-            }
-    }
-
-</script>
 <body>
 </html>
