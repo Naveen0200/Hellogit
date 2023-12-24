@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: #00a9bca0;
+    background-color: #0042bca0;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -12,7 +12,7 @@ body {
 
 .logo {
     width: 800px;
-    height: 200px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
@@ -26,21 +26,10 @@ body {
 .card {
     width: 250px;
     margin: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-}
-
-.card h3 {
+    padding: 15px;letter-spacing: normal;
     margin-top: 10px;
     color: #333;
 }
-/* body {
+ body {
     background-image: url('backgroud.jpg');
-  } */
+  } 
